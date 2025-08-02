@@ -41,12 +41,12 @@ pip install -r requirements.txt
 The application requires the Llama 2 7B Chat model in GGML format. Download the model using the following command:
 
 
-### bash
+### Git Bash
 ```bash
 curl -L -o llama-2-7b-chat.ggmlv3.q4_0.bin https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q4_0.bin && echo "Download complete: llama-2-7b-chat.ggmlv3.q4_0.bin saved to $(pwd)"
 ```
 
-### powershell
+### Powershell
 
 ```bash
 curl -L -o llama-2-7b-chat.ggmlv3.q4_0.bin https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q4_0.bin; echo "Download complete: llama-2-7b-chat.ggmlv3.q4_0.bin saved to $PWD"
@@ -58,7 +58,7 @@ or
 curl -L -o llama-2-7b-chat.ggmlv3.q4_0.bin https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q4_0.bin; Write-Host "Download complete: llama-2-7b-chat.ggmlv3.q4_0.bin saved to $(Get-Location)"
 ```
 
-### command Prompt (cmd)
+### Command Prompt (cmd)
 
 ```bash
 curl -L -o llama-2-7b-chat.ggmlv3.q4_0.bin https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/resolve/main/llama-2-7b-chat.ggmlv3.q4_0.bin && echo Download complete: llama-2-7b-chat.ggmlv3.q4_0.bin saved to %CD%
