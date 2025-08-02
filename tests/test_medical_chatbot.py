@@ -16,7 +16,7 @@ def test_medical_chatbot():
     print("=" * 60)
     
     # Model path
-    model_path = "llama-2-7b-chat.ggmlv3.q4_0.bin"
+    model_path = "model/llama-2-7b-chat.ggmlv3.q4_0.bin"
     
     try:
         print("📥 Loading medical chatbot model...")
