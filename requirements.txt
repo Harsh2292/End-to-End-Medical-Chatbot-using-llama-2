@@ -1,7 +1,9 @@
-ctransformers==0.2.5
-sentence_transformers==2.2.2
-pinecone-client
+ctransformers
+sentence_transformers
+pinecone
 langchain
 langchain-community
 langchain-core
 flask
+huggingface-hub
+pypdf
